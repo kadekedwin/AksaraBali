@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8650F292A9AD6E900EC1F72 /* AksaraBaliApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8650F282A9AD6E900EC1F72 /* AksaraBaliApp.swift */; };
+		E8650F2B2A9AD6E900EC1F72 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8650F2A2A9AD6E900EC1F72 /* HomeView.swift */; };
+		E8650F2D2A9AD6EC00EC1F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8650F2C2A9AD6EC00EC1F72 /* Assets.xcassets */; };
+		E8650F302A9AD6EC00EC1F72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8650F2F2A9AD6EC00EC1F72 /* Preview Assets.xcassets */; };
+		E8650F322A9AD6EC00EC1F72 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8650F312A9AD6EC00EC1F72 /* Persistence.swift */; };
+		E8650F352A9AD6EC00EC1F72 /* AksaraBali.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8650F332A9AD6EC00EC1F72 /* AksaraBali.xcdatamodeld */; };
+		E8650F3F2A9ADC2F00EC1F72 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8650F3E2A9ADC2F00EC1F72 /* CardView.swift */; };
+		E8650F412A9AFBE600EC1F72 /* AntukAksaraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8650F402A9AFBE500EC1F72 /* AntukAksaraView.swift */; };
+		E8650F432A9B055A00EC1F72 /* AntukLatinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8650F422A9B055A00EC1F72 /* AntukLatinView.swift */; };
+		E8770AED2A9F33E200568563 /* Translate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8770AEC2A9F33E200568563 /* Translate.swift */; };
+		E87DF1372A9DCC2700E10BD7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87DF1362A9DCC2700E10BD7 /* SettingsView.swift */; };
+		E87DF1392A9DD62B00E10BD7 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87DF1382A9DD62B00E10BD7 /* SplashScreenView.swift */; };
+		E894A76E2A9C919400007228 /* ContentSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E894A76D2A9C919400007228 /* ContentSliderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E8650F252A9AD6E900EC1F72 /* AksaraBali.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AksaraBali.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8650F282A9AD6E900EC1F72 /* AksaraBaliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AksaraBaliApp.swift; sourceTree = "<group>"; };
+		E8650F2A2A9AD6E900EC1F72 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E8650F2C2A9AD6EC00EC1F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8650F2F2A9AD6EC00EC1F72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E8650F312A9AD6EC00EC1F72 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E8650F342A9AD6EC00EC1F72 /* AksaraBali.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AksaraBali.xcdatamodel; sourceTree = "<group>"; };
+		E8650F3E2A9ADC2F00EC1F72 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E8650F402A9AFBE500EC1F72 /* AntukAksaraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntukAksaraView.swift; sourceTree = "<group>"; };
+		E8650F422A9B055A00EC1F72 /* AntukLatinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntukLatinView.swift; sourceTree = "<group>"; };
+		E8770AEC2A9F33E200568563 /* Translate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translate.swift; sourceTree = "<group>"; };
+		E87DF1362A9DCC2700E10BD7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E87DF1382A9DD62B00E10BD7 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		E894A76D2A9C919400007228 /* ContentSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSliderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8650F222A9AD6E900EC1F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8650F1C2A9AD6E900EC1F72 = {
+			isa = PBXGroup;
+			children = (
+				E8650F272A9AD6E900EC1F72 /* AksaraBali */,
+				E8650F262A9AD6E900EC1F72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8650F262A9AD6E900EC1F72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8650F252A9AD6E900EC1F72 /* AksaraBali.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8650F272A9AD6E900EC1F72 /* AksaraBali */ = {
+			isa = PBXGroup;
+			children = (
+				E8650F282A9AD6E900EC1F72 /* AksaraBaliApp.swift */,
+				E8650F3C2A9ADC0B00EC1F72 /* Views */,
+				E8650F3B2A9ADC0100EC1F72 /* Models */,
+				E8650F2C2A9AD6EC00EC1F72 /* Assets.xcassets */,
+				E8650F2E2A9AD6EC00EC1F72 /* Preview Content */,
+			);
+			path = AksaraBali;
+			sourceTree = "<group>";
+		};
+		E8650F2E2A9AD6EC00EC1F72 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E8650F2F2A9AD6EC00EC1F72 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E8650F3B2A9ADC0100EC1F72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E8650F312A9AD6EC00EC1F72 /* Persistence.swift */,
+				E8650F332A9AD6EC00EC1F72 /* AksaraBali.xcdatamodeld */,
+				E8770AEC2A9F33E200568563 /* Translate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E8650F3C2A9ADC0B00EC1F72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E87DF1382A9DD62B00E10BD7 /* SplashScreenView.swift */,
+				E8650F2A2A9AD6E900EC1F72 /* HomeView.swift */,
+				E8650F402A9AFBE500EC1F72 /* AntukAksaraView.swift */,
+				E8650F422A9B055A00EC1F72 /* AntukLatinView.swift */,
+				E8650F3D2A9ADC1F00EC1F72 /* Components */,
+				E87DF1362A9DCC2700E10BD7 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E8650F3D2A9ADC1F00EC1F72 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E8650F3E2A9ADC2F00EC1F72 /* CardView.swift */,
+				E894A76D2A9C919400007228 /* ContentSliderView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8650F242A9AD6E900EC1F72 /* AksaraBali */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8650F382A9AD6EC00EC1F72 /* Build configuration list for PBXNativeTarget "AksaraBali" */;
+			buildPhases = (
+				E8650F212A9AD6E900EC1F72 /* Sources */,
+				E8650F222A9AD6E900EC1F72 /* Frameworks */,
+				E8650F232A9AD6E900EC1F72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AksaraBali;
+			productName = AksaraBali;
+			productReference = E8650F252A9AD6E900EC1F72 /* AksaraBali.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8650F1D2A9AD6E900EC1F72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E8650F242A9AD6E900EC1F72 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = E8650F202A9AD6E900EC1F72 /* Build configuration list for PBXProject "AksaraBali" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8650F1C2A9AD6E900EC1F72;
+			productRefGroup = E8650F262A9AD6E900EC1F72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8650F242A9AD6E900EC1F72 /* AksaraBali */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8650F232A9AD6E900EC1F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8650F302A9AD6EC00EC1F72 /* Preview Assets.xcassets in Resources */,
+				E8650F2D2A9AD6EC00EC1F72 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8650F212A9AD6E900EC1F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8650F322A9AD6EC00EC1F72 /* Persistence.swift in Sources */,
+				E8650F412A9AFBE600EC1F72 /* AntukAksaraView.swift in Sources */,
+				E8650F2B2A9AD6E900EC1F72 /* HomeView.swift in Sources */,
+				E87DF1372A9DCC2700E10BD7 /* SettingsView.swift in Sources */,
+				E8650F432A9B055A00EC1F72 /* AntukLatinView.swift in Sources */,
+				E8770AED2A9F33E200568563 /* Translate.swift in Sources */,
+				E894A76E2A9C919400007228 /* ContentSliderView.swift in Sources */,
+				E8650F352A9AD6EC00EC1F72 /* AksaraBali.xcdatamodeld in Sources */,
+				E87DF1392A9DD62B00E10BD7 /* SplashScreenView.swift in Sources */,
+				E8650F292A9AD6E900EC1F72 /* AksaraBaliApp.swift in Sources */,
+				E8650F3F2A9ADC2F00EC1F72 /* CardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E8650F362A9AD6EC00EC1F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8650F372A9AD6EC00EC1F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8650F392A9AD6EC00EC1F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AksaraBali/Preview Content\"";
+				DEVELOPMENT_TEAM = XY394PLCZN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blisdev.AksaraBali;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8650F3A2A9AD6EC00EC1F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AksaraBali/Preview Content\"";
+				DEVELOPMENT_TEAM = XY394PLCZN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blisdev.AksaraBali;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8650F202A9AD6E900EC1F72 /* Build configuration list for PBXProject "AksaraBali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8650F362A9AD6EC00EC1F72 /* Debug */,
+				E8650F372A9AD6EC00EC1F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8650F382A9AD6EC00EC1F72 /* Build configuration list for PBXNativeTarget "AksaraBali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8650F392A9AD6EC00EC1F72 /* Debug */,
+				E8650F3A2A9AD6EC00EC1F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E8650F332A9AD6EC00EC1F72 /* AksaraBali.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E8650F342A9AD6EC00EC1F72 /* AksaraBali.xcdatamodel */,
+			);
+			currentVersion = E8650F342A9AD6EC00EC1F72 /* AksaraBali.xcdatamodel */;
+			path = AksaraBali.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E8650F1D2A9AD6E900EC1F72 /* Project object */;
+}
